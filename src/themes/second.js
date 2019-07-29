@@ -1,11 +1,4 @@
-import type { Theme } from "../Theme";
-
-export const secondTheme: Theme = {
-  colors: {
-    primary: "indigo",
-    background: "lavender"
-  },
-  sizes: {
-    headline: 26
-  }
+export const secondTheme = {
+  spaces: [100, 200],
+  colors: ["tomato", "purple"]
 };
